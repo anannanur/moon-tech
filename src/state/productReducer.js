@@ -3,7 +3,8 @@ import { actionTypes } from "./actionTypes";
 export const initialState = {
     loading: false,
     products: [],
-    error: false
+    error: false,
+    cart: []
 }
 export const productReducer = (state, action) => {
     switch (action.type) {
